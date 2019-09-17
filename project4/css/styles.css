@@ -1,0 +1,21 @@
+/*Styles for Project 4*/
+
+body {
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+    font-family: proxima-nova, 
+    sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1 {
+    color:cornflowerblue;
+    font-weight: 500
+}
+h2{
+    font-weight: 500
+}
+img {
+    max-width: 100%;
+}
