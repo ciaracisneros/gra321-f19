@@ -1,0 +1,162 @@
+/* starter project styles */
+
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 38px;
+}
+
+nav a {
+    display: block;
+    float: left;
+    font-family: proxima-nova, 
+    sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #43a047;
+    padding-top: 10px;    
+    padding-right: 25px;    
+    padding-bottom: 25px;    
+    padding-left: 25px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:#43a047;
+    color: white;
+    font-family: proxima-nova,
+    sans-serif;
+    font-weight: 500;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  width: 80%;
+  max-width: 500px;
+}
+.img2{
+    width: 25%;
+    max-width: 150px;
+    float: right;
+    position: inherit;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+.img3{
+    width: 15%;
+    max-width: 80px;
+    float: right;
+    position: inherit;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.img4{
+    width: 18%;
+    max-width: 95px;
+    float: right;
+    position: inherit;
+    padding-left: 0px;
+    padding-top: 40px;
+}
+body {
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+    font-family: proxima-nova, 
+    sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 45px;
+    color:#43a047;
+    font-weight: 800;
+    padding-right: 0px;
+}
+
+h2{
+    font-size: 35px;
+    color:#43a047;
+    font-weight: 800;
+    padding-top: 20px;
+}
+ul {
+    margin-bottom: 2rem;
+    list-style: none;
+    padding-left: 0;
+}
+h4{
+    color:#43a047;
+}
+
+li {
+    padding: .4rem 0;
+   
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+#specials {
+    color: white;
+    background-color:#43a047;
+    text-align:left; 
+    padding:3px 0px 15px 30px;
+    width: 100%;
+    margin-top:20px;
+    
+    
+}
+.sh {
+    color: white;
+    padding-top: 0px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    
+    .location {
+    color: white;
+    background-color:#43a047;
+    text-align:left; 
+    padding-bottom: 60px;
+    padding-top: 3px;
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    position: relative;
+    
+} 
+    .font {
+        margin: 20px 0px 5px 0px;
+        padding-left: 30px;
+        font-size: 20px
+    }
+ .content {
+        padding-left: 30px;
+        font-size: 20px
+    }
+.contact {
+    padding-left: 30px;
+    color: white;
+    padding-top: 0px;
+}
